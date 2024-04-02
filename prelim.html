@@ -1,0 +1,335 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Prelim</title>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #A9A9A9	;
+    color: #333;
+    line-height: 1;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+#home p{
+	text-indent: 2cm;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold; /* Add font weight */
+}
+
+nav {
+    float: right;
+    padding: 15px;
+    padding-top: 0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+/* Style for hover effect */
+nav a:hover {
+    background-color: #555;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: #D3D3D3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+aside {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 48%;
+    padding: 20px;
+    margin-top: 20px; /* Add margin */
+}
+
+aside h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+address {
+    margin-top: 20px;
+    font-style: italic;
+}
+section {
+    width: 1270px;
+    float: right;
+    padding: 20px;
+    background-color: #7393B3;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+	background-color: #D3D3D3;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.profile {
+    position: relative;
+    text-align: left;
+}
+.profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.profile figcaption {
+    position: absolute;
+    bottom: -0px; /* Adjust the positioning */
+    left: 55%;
+    transform: translateX(-550%);
+    font-size: 18px;
+    color: #333;
+
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: calc(30% - 10px);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.video-gallery video{
+	height: 200px;
+	weight: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.footer-content p {
+    margin: 0;
+}
+.info h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.channel-info {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.channel-info h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 200px;
+}
+
+.channel-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust icon size */
+    height: 30px; /* Adjust icon size */
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#Images">Gallery</a>
+            <a href="#PersonalData">PersonalData</a>
+        </nav>
+    </header>
+    <div class="container">
+
+        <section class="intro" id="home">
+            <h2>I AM ME!</h2>
+            <div class="profile">
+                <img src="image2.jpg" alt="Profile Picture">
+				<figcaption>Mark Lito Galbo</figcaption>
+            </div>
+            <div class="intro-text">
+                <p>Hey there! I'm Mark Lito Galbo. Join me on an exciting journey through the world of Computer Engineering, my passion for basketball, and the beautiful landscapes of Bohol. Let's dive into the stories and experiences that shape who I am.</p>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2>Get to Know Me</h2>
+            <div class="about-content">
+                <div class="bio">
+                    <p>In the embrace of Bohol's picturesque landscapes, I, Mark Lito Galbo, at 19 years old, find joy in the rhythmic dance of the basketball court, a passion that defines me. Residing in Pasong Garcia Hernandez, I am known for my friendly disposition and a fondness for Spaghetti, a dish that encapsulates cherished moments with loved ones.</p>
+                    <p>Currently, I navigate the intellectually enriching waters of Computer Engineering at the University of Bohol, where each challenge becomes a stepping stone toward a future where innovation and creativity converge.</p>
+                    <p>My journey unfolds against the scenic backdrop of Bohol, where the sun sets over rice fields, illuminating my pursuit of Computer Engineering. Beyond academics, this transformative odyssey shapes me into a visionary ready to contribute to the dynamic realm of technology. Challenges are not hurdles but brushstrokes, painting the canvas of my future.</p>
+                    <p>My education is more than acquiring knowledge; it is a melody composed of experiences harmonizing into a tapestry of growth. In this symphony of life, I, Mark Lito Galbo, stride confidently into the future with dreams fueled by passion, knowledge, and perseverance. Each chapter is a step toward the zenith of success, and I am poised to leave an indelible imprint on the evolving world of technology and beyond.</p>
+                </div>
+			</div>
+        </section>
+        <br>
+        <section class="Images" id="Images">
+            <h2>Gallery</h2>
+            <div class="image-gallery">
+                <img src="image4.jpg" alt="Image 4">
+                <img src="image1.jpg" alt="Image 1">
+                <img src="image3.jpg" alt="Image 3">
+            </div>
+			<div class= "video-gallery">
+			<video width="500 height=315" controls>
+			<source src="video1.mp4" type="video/mp4">
+			</video>
+			</div>
+        </section>
+        <br>
+        <section class="PersonalData" id="PersonalData">
+            <h2>PersonalData!</h2>
+            <table>
+                <tr>
+                    <th>Personal Information</th>
+                    <th>Contact Details</th>
+                </tr>
+                <tr>
+                    <td>Name: Mark Lito Galbo</td>
+                    <td>Email: marklitogalbo@example.com</td>
+                </tr>
+                <tr>
+				    <td>Nationality: FILIPINO</td>
+					<td>Date of Birth: November 3 2004</td>
+				</tr>	
+                    <td>Age: 19 years old</td>
+                    <td>Phone: +639302808236</td>
+                </tr>				 
+				    <td>Height: 163cm</td>
+					<td>Weight: 44kg</td>
+				</tr>	
+                <tr>
+                    <td>Location: Pasong Garcia Hernandez, Bohol</td>
+                    <td>Address: Purok 1 Santa.Cruz Street, Philippines</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+<aside class="channel-info">
+    <h2>Channel Info</h2>
+    <div class="info-content">
+        <p>Welcome to my channel! I'm Mark Lito Galbo, and here you'll find exciting content about Computer Engineering, basketball, and my adventures in Bohol.</p>
+        <p>Don't forget to subscribe and hit the notification bell to stay updated on the latest videos.</p>
+        <p>Stay connected:</p>
+        <!-- Social Media Icons as Images -->
+        <div class="social-icons">
+				<a href="https://www.facebook.com/ariel.galbo.9" target="_blank"> <img src ="facebook.png" alt="Facebook"></a>
+				<a href="https://www.tiktok.com/in/@markgalbo?_t=8k26UiuktLG&_r=1" target="_blank"> <img src ="tiktok.png" alt="Tiktok"></a>
+				<a href="https://www.youtube.com/@markgalbo" target="_blank"> <img src ="youtube.png" alt="Youtube"></a>
+			</div>
+    </div>
+</aside>
+
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <p>&copy; 2024 My Portfolio | Designed by Mark Lito Galbo</p>  
+			<h2>Thank You for Visiting!</h2>
+			<p>Stay tuned for more updates and projects. Connect with me on social media to see what I'm up to!</p>
+			<div class="social-icons">
+				<a href="https://www.facebook.com/ariel.galbo.9" target="_blank"> <img src ="facebook.png" alt="Facebook"></a>
+				<a href="https://www.tiktok.com/in/@markgalbo?_t=8k26UiuktLG&_r=1" target="_blank"> <img src ="tiktok.png" alt="Tiktok"></a>
+				<a href="https://www.youtube.com/@markgalbo" target="_blank"> <img src ="youtube.png" alt="Youtube"></a>
+			</div>
+        </div>
+		
+    </div>
+</footer>
+</body>
+</html>

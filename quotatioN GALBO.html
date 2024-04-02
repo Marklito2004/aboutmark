@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotations</title>
+    <style>
+        body {
+            background-image: url("pixel.gif");
+            margin: 0;
+            padding: 0;
+            font-family: 'Amita';
+            background-size: cover; /* Cover the entire background */
+        }
+
+		.quotation-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			padding: 20px;
+			position: relative;
+			padding-left: 240px;
+		}
+
+		.quotation-container > span:nth-child(odd) {
+			background-color: gray;
+			width: calc(20% - 15px);
+			height: 200px;
+			margin-bottom: 20px;
+			padding: 20px;
+			border: 5px solid black; 
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		}
+
+		.quotation-container > span:nth-child(even) {
+			background-color: gray;
+			width: calc(20% - 15px);
+			height: 200px;
+			margin-bottom: 20px;
+			padding: 20px;
+			border: 5px solid black; 
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		}
+        .quotation-container >span::first-letter {
+            font-family: 'Amita'; /* Change the font for the first letter */
+            font-size: 32px; /* Adjust the font size */
+            font-weight: bold; /* Make it bold */
+            color: black; /* Change the color */
+        }
+
+		.source {
+			display: block;
+			font-style: italic;
+			margin-top: 10px;
+			text-align: center;
+			color: #666;
+		}
+
+
+       .home-button {
+            position: fixed;
+            bottom: 10px;
+            left:70px;
+            padding: 0; /* Reset padding */
+            border: none; /* Remove border */
+            background: none; /* Remove background */
+        }
+
+        .home-button img {
+            height: 50px; /* Adjust image size */
+            width: 50px; /* Adjust image size */
+        }
+
+		.container {
+            position: fixed;
+            left: 0;
+            top: 40%;
+			height: 400px;
+			width: 1050px; 
+			transform: translate(-50%, -50%) rotate(-90deg); 
+            background-color:gray ;
+		}
+		.centered {
+		  position: fixed;
+		  top: 45%;
+		  left: 50%;
+		  font-size: 50px;
+		  transform: translate(-65%, 140%);
+		  font-family: 'ALGERIAN';
+		}
+		
+    </style>
+</head>
+<body>
+	<div class="container">
+
+	  <div class="centered">POINTS TO SUCCESS</div>
+	</div>
+     <div class="quotation-container">
+            <span>"Education is the most powerful weapon you can use to change the world."
+            <span class="source">-Nelson Mandela.</span></span>
+        
+        
+            <span>"A person who never made a mistake never tried anything new."
+            <span class="source">-Albert Einstein</span></span>
+              
+		
+            <span>"There are plenty of difficult obstacles in your path. Don't allow yourself to become one of them."
+            <span class="source">-Ralph Marston</span></span>
+        		
+		
+            <span>"Only I can change my life. No one can do it for me."
+            <span class="source">– Carol Burnett</span></span>
+        		
+		
+            <span>"Don't wait for the opportunity. Create it." – George Bernard Shawz"
+            <span class="source"> – George Bernard Shaw</span></span>
+        		
+		
+            <span>"I never dreamed about success. I worked for it.”
+            <span class="source">-Estée Lauder.</span></span>
+        		
+		
+            <span>E"If you get tired, learn to rest not to quit."
+            <span class="source">-Banksy.</span></span>
+        		
+		
+            <span>"Failure is another steppingstone to greatness."
+            <span class="source">-Oprah Winfrey.</span></span>
+        		
+		
+            <span>"The best revenge is massive success."
+            <span class="source">–Frank Sinatra.</span></span>
+        		
+		
+            <span>"I believe every human has a finite number of heartbeats. I don't intend to waste any of mine." 
+            <span class="source">-Neil Armstrong</span></span>
+        
+            <span>"Tell me and I forget. Teach me and I remember. Involve me, and I learn." 
+            <span class="source">–Benjamin Franklin</span></span>
+        
+            <span>Learn from yesterday, live for today, hope for tomorrow."
+            <span class="source">-Albert Einstein</span></span>
+        
+		
+    </div>
+	<a href="prelim.html" target="_top" class="home-button"><img src="home.png" alt="Home"></a>
+</body>
+</html>
